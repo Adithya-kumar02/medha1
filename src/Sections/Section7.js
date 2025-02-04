@@ -30,8 +30,7 @@ const FlipBook = () => {
             <div className="back" onClick={() => handlePageFlip(0)}>
               <h2>Lorem Ipsum</h2>
               <img src="/images/page1.jpg" alt="Page 1 Image" />
-              <p>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, modi, perspiciatis molestias cum neque
-              delectus eum eveniet repellat iusto totam magnam cupiditate quaerat quis.</p>
+              <p>1. .</p>
             </div>
           </div>
 
@@ -39,8 +38,7 @@ const FlipBook = () => {
           <div className="page" style={{ '--i': 1 }}>
             <div className="front" onClick={() => handlePageFlip(2)}>
               <img src="/images/page2.jpg" alt="Page 2 Image" />
-              <p>2. Dolor Molestias aspernatur repudiandae sed quos debitis recusandae consectetur ab facilis voluptates
-              sint vero eos, consequuntur delectus?</p>
+              <p>2.</p>
             </div>
             <div className="back" onClick={() => handlePageFlip(1)}>
               <img src="/images/page3.jpg" alt="Page 3 Image" />
@@ -53,13 +51,11 @@ const FlipBook = () => {
               <div className="front" onClick={() => handlePageFlip(index + 1)}>
                 <h2>Sit amet</h2>
                 <img src={`/images/page${index + 2}.jpg`} alt={`Page ${index + 2} Image`} />
-                <p>4. Consectetur adipisicing elit. Dignissimos illo voluptate sapiente provident tempore ea voluptates
-                perferendis tenetur eos nulla, doloribus! Distinctio a nostrum ipsum, adipisci at mollitia.</p>
+                <p>4.</p>
               </div>
               <div className="back" onClick={() => handlePageFlip(index)}>
                 <img src={`/images/page${index + 2}.jpg`} alt={`Page ${index + 2} Image`} />
-                <p>5. Debitis recusandae consectetur ab facilis voluptates sint vero eos, consequuntur delectus temporibus
-                harum dolorem provident eaque perferendis.</p>
+                <p>5. </p>
               </div>
             </div>
           ))}
@@ -73,7 +69,7 @@ const FlipBook = () => {
             </div>
             <div className="back" onClick={() => handlePageFlip(7)}>
               <img src="/images/page10.jpg" alt="Page 10 Image" />
-              <p>7. Temporibus, eum nobis? Adipisci, a? Eaque vel amet ut reprehenderit.</p>
+              <p>7. </p>
             </div>
           </div>
 
@@ -84,8 +80,7 @@ const FlipBook = () => {
             <div className="back" onClick={() => handlePageFlip(8)}>
               <h3>Finalis</h3>
               <img src="/images/page12.jpg" alt="Page 12 Image" />
-              <p>9. Lorem ipsum dolor sit, amet consectetur adipisicing elit. code by Roko, eniam vero, magni dignissimos
-              deleniti hic ratione sequi ullam eos.</p>
+              <p>9.</p>
             </div>
           </div>
         </div>
