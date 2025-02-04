@@ -94,7 +94,7 @@ const Section5 = () => {
             fontSize: "55px",
             fontFamily: "'AvengersFont', sans-serif", // Use the custom font here
             textTransform: "uppercase",
-          }}>MARVEL   &nbsp; VS  &nbsp; DC&nbsp; FEST</h1>
+          }}>MEDHA &nbsp;TEAM </h1>
         </div>
 
         {/* Main Content Section */}

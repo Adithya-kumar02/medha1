@@ -244,7 +244,7 @@ const Section2 = () => {
                   textTransform: "uppercase",
                 }}
               >
-                About &nbsp;&nbsp; Medha
+                  &nbsp;About &nbsp;&nbsp; Medha
               </h1>
               <p style={{ fontSize: "1.2rem", marginTop: "20px" ,color:'white'}}>
                 Medha is a platform dedicated to empowering students and professionals

@@ -395,62 +395,82 @@ const Section3 = () => {
 
       {/* Updated "Click here for cultural Events" button */}
       <div
-        style={{
-          position: "absolute",
-          bottom: "20px",
-          left: "50%",
-          transform: "translateX(-50%)",
-          textAlign: "center",
-          width: isMobile ? "90%" : "600px",
-          cursor: "pointer",
-          
-        }}
-      >
-        <a
-          href="/cultural"
-          style={{
-            display: "block",
-            textDecoration: "none",
-            color: "white",
-            backgroundImage: "url('/images/lokibg.jpg')", // Add your image here
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            borderRadius: "10px",
-            padding: "20px",
-            boxShadow: "0 4px 10px rgba(0, 0, 0, 0.3)",
-            transition: "transform 0.3s ease, box-shadow 0.3s ease",
-          }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.transform = "scale(1.05)";
-            e.currentTarget.style.boxShadow = "0 6px 15px rgba(0, 0, 0, 0.5)";
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.transform = "scale(1)";
-            e.currentTarget.style.boxShadow = "0 4px 10px rgba(0, 0, 0, 0.3)";
-          }}
-        >
-          <h2
-            style={{
-              fontSize: "1.5rem",
-              color:"white",
-              fontWeight: "bold",
-              marginBottom: "10px",
-              textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
-            }}
-          >
-            Click here for Cultural Events
-          </h2>
-          <p
-            style={{
-              fontSize: "1rem",
-              color:"white",
-              textShadow: "1px 1px 2px rgba(0, 0, 0, 0.5)",
-            }}
-          >
-            Explore our exciting cultural events!
-          </p>
-        </a>
-      </div>
+  style={{
+    position: "absolute",
+    bottom: "20px",
+    left: "50%",
+    transform: "translateX(-50%)",
+    textAlign: "center",
+    width: isMobile ? "90%" : "600px",
+    cursor: "pointer",
+    ...(isMobile && {
+      position: "relative",
+      bottom: "auto",
+      left: "auto",
+      transform: "none",
+      marginTop: "20px", // Adjust this value to create the desired gap
+      width: "100%",
+      padding: "20px",
+    }),
+  }}
+>
+  <a
+    href="/cultural"
+    style={{
+      display: "block",
+      textDecoration: "none",
+      color: "white",
+      backgroundImage: "url('/images/lokibg.jpg')",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      borderRadius: "10px",
+      padding: "20px",
+      boxShadow: "0 4px 10px rgba(0, 0, 0, 0.3)",
+      transition: "transform 0.3s ease, box-shadow 0.3s ease",
+    }}
+    onMouseEnter={(e) => {
+      e.currentTarget.style.transform = "scale(1.05)";
+      e.currentTarget.style.boxShadow = "0 6px 15px rgba(0, 0, 0, 0.5)";
+    }}
+    onMouseLeave={(e) => {
+      e.currentTarget.style.transform = "scale(1)";
+      e.currentTarget.style.boxShadow = "0 4px 10px rgba(0, 0, 0, 0.3)";
+    }}
+  >
+    <h2
+      style={{
+        fontSize: "1.5rem",
+        color: "white",
+        fontWeight: "bold",
+        marginBottom: "10px",
+        textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
+      }}
+    >
+      Click here for Cultural Events
+    </h2>
+    <p
+      style={{
+        fontSize: "1rem",
+        color: "white",
+        textShadow: "1px 1px 2px rgba(0, 0, 0, 0.5)",
+      }}
+    >
+      Explore our exciting cultural events!
+    </p>
+  </a>
+</div>
+<style>{
+  `@media (max-width: 768px) {
+  .cultural-event-button {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    margin-top: 20px; /* Adjust this value to create the desired gap */
+    width: 100%;
+    padding: 20px;
+  }
+}`}</style>
     </section>
   );
 };
