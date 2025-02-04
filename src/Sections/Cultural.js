@@ -363,8 +363,8 @@ const CulturalEvents = () => {
   const pageTitleStyle = {
     textAlign: 'center',
     fontSize: '3rem',
-    marginTop: '90px',
-    marginBottom: '30px',
+    paddingTop:'90px',
+   
     color: "red",
   };
 

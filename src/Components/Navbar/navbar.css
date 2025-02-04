@@ -15,7 +15,7 @@
   background-color: transparent;
   font-family: 'Poppins', sans-serif; /* Modern font */
   font-size: 1.3rem;
-  position: sticky;
+  position: fixed;
   width: 100%;
   z-index: 100;
 }
