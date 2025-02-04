@@ -64,7 +64,10 @@ const Team = () => {
   ];
 
   return (
-    <div style={{ padding: '2rem', textAlign: 'center' }}>
+    <div style={{ padding: '2rem', textAlign: 'center' ,
+      marginTop:'50px',
+      paddingBottom:'80px'
+    }}>
       <h1 style={{ fontFamily: "'Bangers', cursive", color: '#ED1D24' }}>
         Meet Our Team
       </h1>

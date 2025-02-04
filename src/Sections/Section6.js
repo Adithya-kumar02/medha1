@@ -12,6 +12,7 @@ const Section1 = () => {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
+        paddingBottom:"80px"
       }}
     >
       {/* Content Wrapper with Padding */}
