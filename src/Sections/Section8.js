@@ -1,4 +1,5 @@
 
+
 import React, { useState, useEffect } from 'react';
 import './SliderDemo.css'; // Import the CSS file
 
@@ -89,12 +90,25 @@ const SliderDemo = () => {
         minHeight: '100vh',
         margin: 0,
         display: 'flex',
+        flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
         fontFamily: 'monospace',
         padding: '20px',
       }}
     >
+      {/* Title Section */}
+      <h1 style={{ 
+        color: 'white', 
+        fontSize: '3rem', 
+        textAlign: 'center', 
+        marginBottom: '20px', 
+        textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' 
+      }}>
+        Glimpse of Medha
+      </h1>
+
+      {/* Slider Section */}
       <div className="slider">
         {items.map((item, index) => (
           <div
@@ -114,10 +128,10 @@ const SliderDemo = () => {
             right: '50px',
             top: '40%',
             zIndex: 2,
-            color: 'red',
+            color: 'yellow',
             background: 'none',
             border: 'none',
-            fontSize: '60px',
+            fontSize: '90px',
             fontFamily: 'monospace',
             fontWeight: 'bold',
             opacity: 0.5,
@@ -134,10 +148,10 @@ const SliderDemo = () => {
             left: '50px',
             top: '40%',
             zIndex: 2,
-            color: 'red',
+            color: 'yellow',
             background: 'none',
             border: 'none',
-            fontSize: '60px',
+            fontSize: '90px',
             fontFamily: 'monospace',
             fontWeight: 'bold',
             opacity: 0.5,

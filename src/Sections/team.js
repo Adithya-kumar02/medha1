@@ -126,6 +126,23 @@ const Team = () => {
         ))}
       </div>
 
+      <style>
+      {`
+          @media (max-width: 768px) {
+            .cultural-event-button {
+              position: relative;
+              bottom: auto;
+              left: auto;
+              transform: none;
+              margin-top: 20px; /* Adjust this value to create the desired gap */
+              width: 100%;
+              padding: 20px;
+            }
+          }
+        `}
+
+      </style>
+
       {/* Go Back Button */}
       <button
         onClick={() => navigate(-1)}

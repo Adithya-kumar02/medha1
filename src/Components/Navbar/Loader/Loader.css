@@ -22,7 +22,7 @@
     border: 6px solid rgba(0, 0, 0, 0.1);
     border-top: 6px solid #3498db;
     border-radius: 50%;
-    animation: spin 1.5s linear infinite;
+    animation: spin 10s linear infinite;
     box-shadow: 0 0 20px rgba(52, 152, 219, 0.5);
 }
 
