@@ -493,7 +493,7 @@ const CulturalEvents = () => {
                   border: 'none',
                   borderRadius: '5px',
                   cursor: 'pointer',
-                  marginTop: '120px',
+                  marginTop: '80px',
                 }}
               >
                 View Rules
