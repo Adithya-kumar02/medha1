@@ -7,26 +7,26 @@ const SliderDemo = () => {
   const [active, setActive] = useState(0);
 
   const items = [
-    {
-      id: 1,
-      backgroundImage: "url('./images/slide1.jpg')",
-      content: (
-        <>
-          <h1>Slide 1</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum hic iure enim, rem accusamus odit nemo aspernatur consequuntur vero in veniam fugiat, consectetur officiis voluptatum quidem libero.
-          </p>
-        </>
-      ),
-    },
+    // {
+    //   id: 1,
+    //   backgroundImage: "url('./images/g1.jpg')",
+    //   content: (
+    //     <>
+    //       <h1>Slide 1</h1>
+    //       <p>
+    //         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum hic iure enim, rem accusamus odit nemo aspernatur consequuntur vero in veniam fugiat, consectetur officiis voluptatum quidem libero.
+    //       </p>
+    //     </>
+    //   ),
+    // },
     {
       id: 2,
-      backgroundImage: "url('./images/slide2.jpg')",
-      content: <h1>Slide 2</h1>,
+      backgroundImage: "url('./images/g1.jpg')",
+      content: <h1></h1>,
     },
     {
       id: 3,
-      backgroundImage: "url('./images/slide3.jpg')",
+      backgroundImage: "url('./images/g.jpg')",
       content: (
         <video width="100%" height="100%" controls>
           <source src="video2.mp4" type="video/mp4" />
@@ -37,14 +37,41 @@ const SliderDemo = () => {
     },
     {
       id: 4,
-      backgroundImage: "url('./images/slide2.jpg')",
-      content: <h1>Slide 2</h1>,
+      backgroundImage: "url('./images/g3.jpg')",
+      content: <h1></h1>,
     },
     {
       id: 5,
-      backgroundImage: "url('./images/slide2.jpg')",
-      content: <h1>Slide 2</h1>,
-    }
+      backgroundImage: "url('./images/g4.jpg')",
+      content: <h1></h1>,
+    },{
+      id:6,
+      backgroundImage:"url('./images/g5.jpg')"
+    },{
+        id:7,
+        backgroundImage:"url('./images/g6.jpg')"
+    },
+    {
+      id:8,
+      backgroundImage:"url('./images/g7.jpg')"
+  },
+  {
+    id:9,
+    backgroundImage:"url('./images/g8.jpg')"
+},
+{
+  id:10,
+  backgroundImage:"url('./images/g9.jpg')"
+},{
+  id:11,
+  backgroundImage:"url('./images/g10.jpg')"
+},{
+  id:12,
+  backgroundImage:"url('./images/g11.jpg')"
+},{
+  id:13,
+  backgroundImage:"url('./images/g12.jpg')"
+}
     // Add other slides here...
   ];
 
