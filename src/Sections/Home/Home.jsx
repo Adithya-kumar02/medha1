@@ -3,7 +3,7 @@ import "./home.css";
 
 export const Home = () => {
   const calculateTimeLeft = () => {
-    const targetDate = new Date('2025-02-21T00:00:00').getTime();
+    const targetDate = new Date('2025-02-28T00:00:00').getTime();
     const now = new Date().getTime();
     return targetDate - now;
   };
