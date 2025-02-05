@@ -7,18 +7,7 @@ const SliderDemo = () => {
   const [active, setActive] = useState(0);
 
   const items = [
-    // {
-    //   id: 1,
-    //   backgroundImage: "url('./images/g1.jpg')",
-    //   content: (
-    //     <>
-    //       <h1>Slide 1</h1>
-    //       <p>
-    //         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum hic iure enim, rem accusamus odit nemo aspernatur consequuntur vero in veniam fugiat, consectetur officiis voluptatum quidem libero.
-    //       </p>
-    //     </>
-    //   ),
-    // },
+    
     {
       id: 2,
       backgroundImage: "url('./images/g1.jpg')",
@@ -46,7 +35,7 @@ const SliderDemo = () => {
       content: <h1></h1>,
     },{
       id:6,
-      backgroundImage:"url('./images/g5.jpg')"
+      backgroundImage:"url('./images/g5.jpg')"   
     },{
         id:7,
         backgroundImage:"url('./images/g6.jpg')"
